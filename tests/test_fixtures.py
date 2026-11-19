@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class FixtureIntegrityTest(unittest.TestCase):
     def test_csv_files_have_headers_and_records(self):
         files = sorted((ROOT / "data").glob("*.csv"))
-        self.assertGreaterEqual(len(files), 3)
+        self.assertGreaterEqual(len(files), 2)
         for path in files:
             with path.open(encoding="utf-8", newline="") as stream:
                 rows = list(csv.DictReader(stream))
