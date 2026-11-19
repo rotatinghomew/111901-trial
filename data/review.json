@@ -1,0 +1,9 @@
+{
+  "minimum_gain": 0.03,
+  "max_spillover": 0.25,
+  "max_missing": 0.1,
+  "required_strata": [
+    "urban",
+    "rural"
+  ]
+}

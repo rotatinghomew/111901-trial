@@ -1,0 +1,4 @@
+from_cluster,to_cluster,valid_from,valid_to
+north-a,north-b,2026-05-01,
+south-a,south-b,2026-05-01,
+west-a,west-b,2026-06-01,
